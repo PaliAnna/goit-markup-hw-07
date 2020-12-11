@@ -1,0 +1,72 @@
+
+.footer {
+    background-color: var(--hero-footer-bcg);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+}
+.footer-logo {
+    color: var(--blue);
+
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    list-style: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.footer-span {
+    color: var(--white);
+}   
+
+.f-address {
+    color: var(--white);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    margin: 0;
+    margin-top: 20px;
+}
+.footer-list .item:not(:last-child){
+    margin-bottom: 9px;
+}
+
+.f-address:hover,
+.f-address:focus {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+.footer-info {
+    color: var(--footer-address);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71
+  
+   
+}
+
+.footer-info:hover,
+.footer-info:focus {
+    color: var(--blue);
+}
+.footer-content {
+    display: flex;
+}
+.footer-social {
+    margin-left: 70px;
+    padding-top: 12px;
+}
+.text-connect {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white);
+    padding: 0;
+    margin: 0;
+}

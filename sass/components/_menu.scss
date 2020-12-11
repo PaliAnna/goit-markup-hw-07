@@ -1,0 +1,59 @@
+.menu {
+    display: inline-flex;
+  
+ }
+ 
+ .menu-item:not(:last-child) {
+     margin-right: 50px;
+ 
+ }
+ .menu-item {
+ padding-top: 32px;
+ padding-bottom: -24px;
+ 
+ }
+ .info{
+     color: var(--text-color-p);
+     
+     
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 1.14;
+     letter-spacing: 0.02em;
+     text-decoration: none;
+ display: flex;
+ align-items: center;
+     
+     
+   
+     padding-bottom: 32px;
+ }
+ .info:hover,
+ .info:focus{
+     color: var(--blue);
+ }
+ .icon-contacts {
+     margin-right: 10px;
+ }
+ .menu-item a:hover,
+ .menu-item a:focus{
+     color: var(--blue);
+ }
+ /* подчёркивание текущей ссылки.*/
+ .header .site-link.current::after {
+    
+     display: block;
+     content: '';
+     position: absolute;
+     height: 4px;
+     width: 100%;
+     left: 0;
+     bottom: 0; 
+     margin-top: 24px;
+     
+ position: relative;
+          
+     background-color: var(--blue);
+     border-radius: 2px;
+    
+ } 

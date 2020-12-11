@@ -1,0 +1,56 @@
+
+.occupation {
+    background-color: var(---white);
+    padding-bottom: 94px;
+}
+.occupation-title {
+    color: var(--primary-text-color);
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.occupation-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+    padding: 0;
+    list-style: none;
+}
+
+.occupation-item {
+    flex-basis: calc(100% / 3 - 30px);
+    border-radius: 4px;
+    margin-left: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+.occupation-list .occupation-item {
+    position: relative;
+}
+
+.occupation .wedo-content {
+    position: absolute;
+    bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 27px;
+    padding-bottom: 27px;
+  
+    width: 100%;
+  
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+  
+    background-color: rgba(47, 48, 58, 0.8);
+    color: #ffffff;
+}
+

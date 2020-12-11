@@ -1,0 +1,70 @@
+
+.site-nav {
+    background-color: var(--white);
+}
+.header{
+    
+    background-color: var(--white);
+    border-bottom: 1px solid #ECECEC;
+    
+}
+
+.header .contact-linc {
+    margin-right: 50px;
+
+}
+.header .icon-clients {
+    margin-right: 10px
+}
+.header .logo {
+    margin-right: 121px;
+}
+
+.header-container{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.nav-logo {
+    color: var(--blue);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    list-style: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+.logo-studio{
+    color: var(--primary-text-color);
+  
+}
+
+.site-link {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.87;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+    .site-link:hover,
+    .site-link:focus {
+    color: var(--blue);
+
+}
+
+.site-link.current{
+    color: var(--blue);
+    text-decoration: none;
+} 

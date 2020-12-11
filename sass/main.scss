@@ -1,0 +1,31 @@
+@import "./utils/variables";
+@import "./base/common";
+/*<!-- Хэдэр -->*/
+@import "./components/buttons";
+@import "./components/menu";
+/* hero */
+@import "./layouts/hero";
+@import "./layouts/section";
+/* details */
+@import "./layouts/details";
+/*<!-- Чем занимаемся -->*/
+/* occupation */
+@import "./layouts/occupation";
+/* team */
+@import "./layouts/team";
+@import "./components/social-icons";
+ /*<!-- Постоянные клиенты -->*/ 
+        /*  clients */ 
+@import "./layouts/clients";
+         
+  /* Portfolio */
+/* Фильтры */
+@import "./layouts/filter";
+/* Offer */
+@import "./layouts/Offer";
+/* footer */
+@import "./layouts/footer";
+/* footer-form */
+@import "./components/footer-form";
+ /* modal */
+@import "./components/modal";

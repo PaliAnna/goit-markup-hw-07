@@ -1,70 +1,71 @@
-
-.site-nav {
-    background-color: var(--white);
-}
-.header{
-    
-    background-color: var(--white);
-    border-bottom: 1px solid #ECECEC;
-    
-}
-
-.header .contact-linc {
-    margin-right: 50px;
-
-}
-.header .icon-clients {
-    margin-right: 10px
-}
-.header .logo {
-    margin-right: 121px;
+%button {
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  background-color: $button-blue;
+  color: $bgn-white-color;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  border-style: none;
 }
 
-.header-container{
-display: flex;
-justify-content: flex-end;
-align-items: center;
-
+%hover-button {
+  background-color: $bgn-white-color;
+  color: $button-blue;
 }
 
-.navigation{
-    display: flex;
-    align-items: center;
-    margin-right: auto;
+.hero-button {
+  @extend %button;
+  position: relative;
+
+  &:hover,
+  &:focus {
+    @extend %hover-button;
+    @extend %animation;
+  }
 }
 
-.nav-logo {
-    color: var(--blue);
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    list-style: 1.2;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    margin-right: 93px;
-    padding-top: 24px;
-    padding-bottom: 25px;
+.subscribe-btn {
+  @extend %button;
+  position: relative;
+  display: inline-flex;
+  padding-left: 28px;
+  margin-left: 12px;
+
+  &:hover,
+  &:focus {
+    @extend %hover-button;
+    @extend %animation;
+  }
 }
-.logo-studio{
-    color: var(--primary-text-color);
-  
+.btn-icon {
+  position: absolute;
+  top: 0;
+  right: 28px;
+  width: 24px;
+  height: 24px;
+  fill: $bgn-white-color;
+  transform: translateY(50%);
+
+  .subscribe-btn:hover &,
+  .subscribe-btn:focus & {
+    fill: $button-blue;
+    transition-property: fill;
+    @extend %animation;
+  }
 }
 
-.site-link {
-    color: var(--primary-text-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 0.87;
-    letter-spacing: 0.02em;
-    text-decoration: none;
+.send-btn {
+  @extend %button;
+  @extend .subscribe-btn;
+  padding-left: 55px;
+  left: 25%;
+  margin-top: 30px;
+  margin-left: 0;
 }
-    .site-link:hover,
-    .site-link:focus {
-    color: var(--blue);
-
-}
-
-.site-link.current{
-    color: var(--blue);
-    text-decoration: none;
-} 

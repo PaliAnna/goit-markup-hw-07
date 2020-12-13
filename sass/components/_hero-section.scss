@@ -1,0 +1,29 @@
+/* hero */
+.hero-section {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/imghero-min.jpg");
+  background-color: $footer-color;
+}
+.hero-container {
+  max-width: 650px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  .hero-title {
+    color: $bgn-white-color;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+}

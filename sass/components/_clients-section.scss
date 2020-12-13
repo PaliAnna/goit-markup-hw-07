@@ -1,0 +1,27 @@
+/* section clients */
+.clients-box {
+  display: flex;
+
+  & .item:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.clientlogo {
+  display: inline-flex;
+  width: 170px;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  fill: $icon-color;
+  border: 1px solid $icon-color;
+  border-radius: 4px;
+
+  &:hover,
+  &:focus {
+    fill: $button-blue;
+    border: 1px solid $button-blue;
+    @extend %animation;
+  }
+}

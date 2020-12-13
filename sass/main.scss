@@ -1,30 +1,19 @@
-@import "./utils/variables";
-@import "./base/common";
-/*<!-- Хэдэр -->*/
+@import "./utils/fonts";
+@import "./utils/colors";
+@import "./utils/animations";
+@import "./components/general-styles";
+@import "./components/page-header";
+@import "./components/logo";
+@import "./components/hero-section";
 @import "./components/buttons";
-@import "./components/menu";
-/* hero */
-@import "./layouts/hero";
-@import "./layouts/section";
-/* details */
-@import "./layouts/details";
-/*<!-- Чем занимаемся -->*/
-/* occupation */
-@import "./layouts/occupation";
-/* team */
-@import "./layouts/team";
-@import "./components/social-icons";
- /*<!-- Постоянные клиенты -->*/ 
-        /*  clients */ 
-@import "./layouts/clients";
-  /* Portfolio */
-/* Фильтры */
-@import "./layouts/filter";
-/* Offer */
-@import "./layouts/Offer";
-/* footer */
-@import "./layouts/footer";
-/* footer-form */
-@import "./components/footer-form";
- /* modal */
-@import "./components/modal";
+@import "./components/about-us-section";
+@import "./components/what-we-do-section";
+@import "./components/our-team-section";
+@import "./components/socialmedia";
+@import "./components/clients-section";
+@import "./components/filter-section";
+@import "./components/projects";
+@import "./components/page-footer";
+@import "./components/modal-win";
+@import "./components/modal-checkbox";
+@import "./components/modal-form";
